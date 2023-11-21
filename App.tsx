@@ -21,7 +21,7 @@ const App = () => {
         return Math.floor(Math.random() * 360);
       }
       const imageStyle = {
-        // transform: [{ rotate: `${getRandomDegree()}deg` }],
+        transform: [{ rotate: `${getRandomDegree()}deg` }],
       };
       images.push(
         <View key={i} style={{width:10,height:10,margin:'5%' , display:'flex'}}>
