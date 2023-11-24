@@ -24,7 +24,7 @@ const App = () => {
         transform: [{ rotate: `${getRandomDegree()}deg` }],
       };
       images.push(
-        <View key={i} style={{width:10,height:10,margin:'5%' , display:'flex'}}>
+        // <View key={i} style={{width:10,height:10,margin:'5%' , display:'flex'}}>
           <Image
             source={require('./src/asset/Imge/Gobelek.png')}
             style={[appcss.img2,imageStyle]}
