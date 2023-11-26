@@ -83,7 +83,7 @@ const App = () => {
             <View key={index} style={{ width: 10, height: 10, margin: '5%', display: 'flex' }}>
               <Image
                 source={require('./src/asset/Imge/Gobelek.png')} // Use the source from the retrieved data
-                style={[appcss.img2]}
+                // style={[appcss.img2]}
               />
             </View>
           ))}
