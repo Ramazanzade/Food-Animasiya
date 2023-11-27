@@ -74,7 +74,7 @@ const App = () => {
       <View>
         <View style={appcss.imgview}>
           <Image
-            source={require('./src/asset/Imge/Pizza.png')}
+            // source={require('./src/asset/Imge/Pizza.png')}
             style={appcss.img}
           />
         </View>
