@@ -64,7 +64,7 @@ const App = () => {
   };
   const handlePress = () => {
     if (clickCount <= 59) {
-      // setClickCount(clickCount + 1);
+      setClickCount(clickCount + 1);
       storeData()
     }
     console.log(`Clicked ${clickCount} times`);
